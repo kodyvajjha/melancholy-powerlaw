@@ -7,3 +7,11 @@ All the statistics has been inspired by Clauset,Shalizi,Newman (2007). The pytho
 
 In conclusion it has been noted that for the observed data, a power-law with a scaling factor of approximately 2.10 performs only
 slightly better than a lognormal distribution.  
+
+The files are as follows :
+
+melancholy.py is an interactive toy script which gives you the option of seeing the most frequent words in The Anatomy of Melancholy.
+
+melwordfreq.py gives the initial investigation into the data with a histogram of the word frequencies as well as a log-log plot.
+
+melpowerlaw.py contains most of the hardcore stat with an estimation of the quantity x_min and the scaling parameter alpha. It also contains plots for the Complementary Cumulative Distribution Function for the fitted power law. Also, as a final step, it includes by comparing the fitted power law with other distributions such as exponential, stretched exponential, positive lognormal and lognormal respectively. From this it is concluded that the lognormal distribution is the one which comes closest to the fitted power law.
